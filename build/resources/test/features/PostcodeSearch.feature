@@ -7,5 +7,5 @@ Then response should show "<country>" and "<region>"
 
 Examples:
 |postcodes|country|region|
-|SW1A 0AA|England|London|
-|M16 0RA|England||North West|
+|SW1A0AA|England|London|
+|M160RA|England|North West|
