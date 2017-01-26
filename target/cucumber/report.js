@@ -61,11 +61,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 555312587,
+  "duration": 527362613,
   "status": "passed"
 });
 formatter.before({
-  "duration": 444492,
+  "duration": 501557,
   "status": "passed"
 });
 formatter.scenario({
@@ -103,7 +103,7 @@ formatter.match({
   "location": "PostCodeSearch.I_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 1154925896,
+  "duration": 1202045397,
   "status": "passed"
 });
 formatter.match({
@@ -120,15 +120,15 @@ formatter.match({
   "location": "PostCodeSearch.response_should_show(String,String)"
 });
 formatter.result({
-  "duration": 552057239,
+  "duration": 478531837,
   "status": "passed"
 });
 formatter.before({
-  "duration": 489729,
+  "duration": 538656,
   "status": "passed"
 });
 formatter.before({
-  "duration": 442932,
+  "duration": 360448,
   "status": "passed"
 });
 formatter.scenario({
@@ -166,7 +166,7 @@ formatter.match({
   "location": "PostCodeSearch.I_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 162139358,
+  "duration": 145300915,
   "status": "passed"
 });
 formatter.match({
@@ -183,7 +183,7 @@ formatter.match({
   "location": "PostCodeSearch.response_should_show(String,String)"
 });
 formatter.result({
-  "duration": 34434221,
+  "duration": 28343046,
   "status": "passed"
 });
 formatter.uri("POST_BulkSearch.feature");
@@ -244,11 +244,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 458045,
+  "duration": 660045,
   "status": "passed"
 });
 formatter.before({
-  "duration": 296409,
+  "duration": 511364,
   "status": "passed"
 });
 formatter.scenario({
@@ -287,15 +287,15 @@ formatter.match({
   "location": "BulkSearch.I_Enter_Postcodes(String,String,String)"
 });
 formatter.result({
-  "duration": 188927426,
+  "duration": 160665874,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1040319,
+  "duration": 574183,
   "status": "passed"
 });
 formatter.before({
-  "duration": 405905,
+  "duration": 754827,
   "status": "passed"
 });
 formatter.scenario({
@@ -334,7 +334,7 @@ formatter.match({
   "location": "BulkSearch.I_Enter_Postcodes(String,String,String)"
 });
 formatter.result({
-  "duration": 171166192,
+  "duration": 167664575,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -387,11 +387,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 515180,
+  "duration": 947879,
   "status": "passed"
 });
 formatter.before({
-  "duration": 747473,
+  "duration": 760464,
   "status": "passed"
 });
 formatter.scenario({
@@ -430,16 +430,16 @@ formatter.match({
   "location": "BulkSearch.I_Should_Get_Correct_Addresses(String,String,String)"
 });
 formatter.result({
-  "duration": 46887002,
+  "duration": 49864929,
   "error_message": "java.lang.AssertionError: 1 expectation failed.\nJSON path result[0].result.region doesn\u0027t match.\nExpected: London\n  Actual: North West\n\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)\n\tat io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)\n\tat io.restassured.specification.ResponseSpecification$content$0.callCurrent(Unknown Source)\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)\n\tat StepDefinitions.BulkSearch.I_Should_Get_Correct_Addresses(BulkSearch.java:47)\n\tat ✽.Then I should get \"London\",\"London\",\"Yorkshire and The Humber\"(POST_BulkSearch.feature:15)\n",
   "status": "failed"
 });
 formatter.before({
-  "duration": 1019604,
+  "duration": 316922,
   "status": "passed"
 });
 formatter.before({
-  "duration": 958221,
+  "duration": 943335,
   "status": "passed"
 });
 formatter.scenario({
@@ -478,7 +478,7 @@ formatter.match({
   "location": "BulkSearch.I_Should_Get_Correct_Addresses(String,String,String)"
 });
 formatter.result({
-  "duration": 18911401,
+  "duration": 20554052,
   "error_message": "java.lang.AssertionError: 1 expectation failed.\nJSON path result[0].result.region doesn\u0027t match.\nExpected: London\n  Actual: North West\n\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)\n\tat io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)\n\tat io.restassured.specification.ResponseSpecification$content$0.callCurrent(Unknown Source)\n\tat io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)\n\tat StepDefinitions.BulkSearch.I_Should_Get_Correct_Addresses(BulkSearch.java:47)\n\tat ✽.Then I should get \"London\",\"North West\",\"London\"(POST_BulkSearch.feature:15)\n",
   "status": "failed"
 });
