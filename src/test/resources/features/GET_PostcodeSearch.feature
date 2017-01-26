@@ -1,4 +1,4 @@
-Feature: Search for a postcode
+Feature: GET Request: Search for a postcode
 
 Scenario Outline: Postcode requests should return correct addresses
 

@@ -1,5 +1,6 @@
 package StepDefinitions;
 
+import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import io.restassured.RestAssured;
@@ -13,9 +14,14 @@ public class PostCodeSearch {
 	
 	private Response response;
 	
+	@Before
+	public void setup(){
+		RestAssured.useRelaxedHTTPSValidation();
+	}
+	
 	@Given("^I enter \"([^\"]*)\"$")
 	public void I_enter_postcode(String postcodes){
-		RestAssured.useRelaxedHTTPSValidation();
+		//RestAssured.useRelaxedHTTPSValidation();
 	    response=given().
 	            contentType("application/json")
 	            .when()
@@ -28,7 +34,6 @@ public class PostCodeSearch {
 	   	  response
 	   	  .then()
 	   	  .body("result.country",equalTo(country))
-	   	  .body("result.region", equalTo(region))
-	   	 .statusCode(200);
+	   	  .body("result.region", equalTo(region));
 	}
 }
