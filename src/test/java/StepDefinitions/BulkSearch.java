@@ -17,7 +17,7 @@ import org.json.JSONObject;
 
 public class BulkSearch {
 	
-	private static Response response;
+	private Response response;
 
 	@Before
 	public void setup(){
@@ -44,8 +44,6 @@ public class BulkSearch {
 	public void I_Should_Get_Correct_Addresses(String region1, String region2, String region3){
 		response
 	   	  .then()
-	   	  .body("result[0].result.region",equalTo(region1))
-	   	  .body("result[1].result.region",equalTo(region2))
-	   	  .body("result[2].result.region",equalTo(region3));
+	   	  .body("result.result.region",hasItems(region1,region2,region3));
 	}
 }

@@ -1,6 +1,6 @@
 Feature: GET Request: Search for a postcode
 
-Scenario Outline: Postcode requests should return correct addresses
+Scenario Outline: Individual postcode request should return correct address
 
 Given I enter "<postcodes>"
 Then response should show "<country>" and "<region>"
