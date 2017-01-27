@@ -21,7 +21,6 @@ public class PostCodeSearch {
 	
 	@Given("^I enter \"([^\"]*)\"$")
 	public void I_enter_postcode(String postcodes){
-		//RestAssured.useRelaxedHTTPSValidation();
 	    response=given().
 	            contentType("application/json")
 	            .when()

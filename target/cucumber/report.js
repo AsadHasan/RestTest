@@ -61,11 +61,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 554750375,
+  "duration": 807112264,
   "status": "passed"
 });
 formatter.before({
-  "duration": 238821,
+  "duration": 696604,
   "status": "passed"
 });
 formatter.scenario({
@@ -103,7 +103,7 @@ formatter.match({
   "location": "PostCodeSearch.I_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 1125267857,
+  "duration": 1623611271,
   "status": "passed"
 });
 formatter.match({
@@ -120,15 +120,15 @@ formatter.match({
   "location": "PostCodeSearch.response_should_show(String,String)"
 });
 formatter.result({
-  "duration": 542520363,
+  "duration": 678798744,
   "status": "passed"
 });
 formatter.before({
-  "duration": 501253,
+  "duration": 2144184,
   "status": "passed"
 });
 formatter.before({
-  "duration": 314414,
+  "duration": 5571112,
   "status": "passed"
 });
 formatter.scenario({
@@ -166,7 +166,7 @@ formatter.match({
   "location": "PostCodeSearch.I_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 152818877,
+  "duration": 174132816,
   "status": "passed"
 });
 formatter.match({
@@ -183,7 +183,7 @@ formatter.match({
   "location": "PostCodeSearch.response_should_show(String,String)"
 });
 formatter.result({
-  "duration": 31187532,
+  "duration": 30171420,
   "status": "passed"
 });
 formatter.uri("POST_BulkSearch.feature");
@@ -258,11 +258,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 888106,
+  "duration": 524847,
   "status": "passed"
 });
 formatter.before({
-  "duration": 688992,
+  "duration": 498214,
   "status": "passed"
 });
 formatter.scenario({
@@ -311,7 +311,7 @@ formatter.match({
   "location": "BulkSearch.I_Enter_Postcodes(String,String,String)"
 });
 formatter.result({
-  "duration": 185039143,
+  "duration": 204416215,
   "status": "passed"
 });
 formatter.match({
@@ -332,15 +332,15 @@ formatter.match({
   "location": "BulkSearch.I_Should_Get_Correct_Addresses(String,String,String)"
 });
 formatter.result({
-  "duration": 36813523,
+  "duration": 50639263,
   "status": "passed"
 });
 formatter.before({
-  "duration": 907760,
+  "duration": 1337824,
   "status": "passed"
 });
 formatter.before({
-  "duration": 348286,
+  "duration": 294622,
   "status": "passed"
 });
 formatter.scenario({
@@ -389,7 +389,7 @@ formatter.match({
   "location": "BulkSearch.I_Enter_Postcodes(String,String,String)"
 });
 formatter.result({
-  "duration": 159380279,
+  "duration": 228649445,
   "status": "passed"
 });
 formatter.match({
@@ -410,7 +410,7 @@ formatter.match({
   "location": "BulkSearch.I_Should_Get_Correct_Addresses(String,String,String)"
 });
 formatter.result({
-  "duration": 20020289,
+  "duration": 21880270,
   "status": "passed"
 });
 });
