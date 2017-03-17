@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Search for a postcode via GET request" skipped="0" tests="2" time="0.59" timestamp="2017-03-76 04:37:51"><testcase name="Individual postcode request should return correct address"/></testsuite>

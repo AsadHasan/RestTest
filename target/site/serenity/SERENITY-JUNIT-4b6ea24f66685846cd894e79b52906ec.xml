@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Bulk lookup postcodes via POST request" skipped="0" tests="2" time="5.06" timestamp="2017-03-76 04:37:44"><testcase name="If I supply a bunch of postcodes then"/></testsuite>

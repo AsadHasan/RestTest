@@ -14,7 +14,7 @@ import java.util.Arrays;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-public class BulkSearch {
+public class BulkSearchStepdefs {
 	
 	private Response response;
 

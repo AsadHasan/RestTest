@@ -1,4 +1,4 @@
-Feature: POST Request: Bulk lookup postcodes
+Feature: Bulk lookup postcodes via POST request
 
 Scenario Outline: If I supply a bunch of postcodes then 
 correct addresses should be returned
